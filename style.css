@@ -1,0 +1,286 @@
+body {
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  /* header*/
+  header {
+    display: flex;
+    
+    flex-direction: column;
+    width: 1126px;
+    margin-bottom: 280px;
+  }
+  header h1 {
+    padding: 0px;
+    margin: 0;
+    font-size: 195px;
+  }
+  header .Folio {
+    height: 20px;
+    padding: 80px 0 50px 0;
+  }
+  header p {
+    font-size: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    margin: 0;
+  }
+  header img{
+      width: 100px;
+      height: 100px;
+  }
+  /* section*/
+  .Eclair{
+      width: 70px;
+      height: 100px;
+      margin-left: 450px;
+  }
+  .carre1 {
+    height: 585px;
+    width: 585px;
+    background-color: #baecee;
+  }
+  .Fleche{
+      position: relative;
+     transform: rotate(35deg);
+      right: 40px;
+
+  }
+  .carre2 {
+    height: 585px;
+    width: 585px;
+    background-color: #fae1ef;
+  }
+  .Vague{
+      position: relative;
+      left: 525px;
+      top: 100px;
+    transform: rotate(35deg);
+  }
+  .carre3 {
+    height: 585px;
+    width: 585px;
+    background-color: #fefbe5;
+  }
+  .carre3 p {
+    position: relative;
+    left: 400px;
+    top: 460px;
+    
+    
+  }
+  
+.ReadMoreCarre {
+    height: 20px;
+    width: 100px;
+    border: solid 1px black;
+    position: relative;
+    left: 353px;
+    top: 423px;
+}
+.Trait{
+    border-top : 1px solid #000;
+    width: 60px;
+    position: relative;
+    left: 330px;
+    top: 436px;
+}
+  .carre4 {
+    height: 585px;
+    width: 585px;
+    background-color: #e8bdf5;
+  }
+  .PetitCarre{
+      position: relative;
+      left: 530px;
+      top: 300px;
+    transform: rotate(55deg);
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  /*footer */
+  footer {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 100%;
+padding-top: 150px;
+margin-top: -100px;
+background-color: #f2fbfb;
+
+
+  }
+  footer p {
+    text-align: center;
+    padding: 5px;
+  }
+  .loading {
+    letter-spacing: 10px;
+    padding-bottom: 50px;
+  }
+  .Numero {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .ConditionUtilisation {
+    font-size: 7px;
+    width: 300px;
+  }
+  .Reseaux {
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 700;
+    word-spacing: 1rem;
+    
+  }
+  a:hover {
+    background-color: rgb(149, 228, 252);
+    border-radius: 20%;
+  }
+  .Reseaux a {
+    text-decoration: none;
+    color: #403d40;
+  }
+
+  @media (max-width: 700px){
+      main{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+      }
+ /* header*/
+header{
+    display: flex;
+    align-items: flex-start;
+    width: 360px;
+    margin-bottom: 100px;
+}
+header h1{
+    font-size: 96px;
+}
+header p{
+    font-size: 15px;
+}
+.Eclair{
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+}
+/* section*/
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.carre1,.carre2,.carre3,.carre4{
+    height: 400px;
+    width: 400px;
+    
+}
+.Vague{
+    position: relative;
+    left: 330px;
+}
+.PetitCarre{
+    position: relative;
+    left: 350px;
+    top: 250px;
+}
+
+.ReadMoreCarre{
+    position: relative;
+    height: 30px;
+    width: 150px;
+        left: 200px;
+        top: 225px;
+    
+}
+.Trait{
+    position: relative;
+    left: 180px;
+        top: 245px;
+}
+
+.carre3 p{
+    font-size: 30px;
+    position: relative;
+    left: 250px;
+    top: 290px;
+    width: 150px;
+}
+
+    /* footer*/
+.loading{
+    font-size: 60px;
+}
+.Reseaux{
+    font-size: 30px;
+}
+a:hover {
+    background-color: rgb(149, 228, 252);
+    border-radius: 20%;
+  }
+.Numero{
+    font-size: 80px;
+   
+}
+.ConditionUtilisation{
+    font-size: 10px;
+}
+
+}
+@media (max-width: 1276px){
+     .carre1,.carre2,.carre3,.carre4{
+    height: 400px;
+    width: 400px;
+    
+}
+  .Trait{
+    position: relative;
+    left: 180px;
+        top: 245px;
+}
+  .PetitCarre{
+    position: relative;
+    left: 350px;
+    top: 250px;
+}
+
+.ReadMoreCarre{
+    position: relative;
+    height: 30px;
+    width: 150px;
+        left: 200px;
+        top: 225px;
+  }
+    .carre3 p{
+    font-size: 30px;
+    position: relative;
+    left: 250px;
+    top: 290px;
+    width: 150px;
+}
+  .Vague{
+    position: relative;
+    left: 330px;
+}
+      }
